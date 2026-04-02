@@ -6,7 +6,7 @@ import os
 
 TOKEN = os.getenv("BOT_TOKEN")
 
-ADMIN_ID = 123456789  # apna telegram id daalo
+ADMIN_ID = 8530402543  # apna telegram id daalo
 
 users = set()
 
