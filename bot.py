@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from proxy_scraper import get_indian_proxies
 from checker import check_all
 
-TOKEN = "8686175496:AAHBe3pRl9SshHKefdFyC2chqcAgCo1Yorg"
+TOKEN = "YOUR_BOT_TOKEN"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Bot Ready 🚀")
